@@ -1,0 +1,4 @@
+app/code/community/Mediotype/Responsive app/code/community/Mediotype/Responsive
+app/etc/modules/Mediotype_Responsive.xml app/etc/modules/Mediotype_Responsive.xml
+app/design/adminhtml/default/responsive/ app/design/adminhtml/default/responsive
+skin/adminhtml/default/responsive/ skin/adminhtml/default/responsive/

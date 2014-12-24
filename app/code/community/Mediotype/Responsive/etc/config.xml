@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mediotype_Responsive>
+            <version>0.1.0</version>
+        </Mediotype_Responsive>
+    </modules>
+    <global>
+        <models>
+            <mediotype_responsive>
+                <class>Mediotype_Responsive_Model</class>
+                <resourceModel>mediotype_responsive_resource</resourceModel>
+            </mediotype_responsive>
+            <mediotype_responsive_resource>
+                <class>Mediotype_Responsive_Model_Resource</class>
+            </mediotype_responsive_resource>
+        </models>
+        <blocks>
+            <mediotype_responsive>
+                <class>Mediotype_Responsive_Block</class>
+            </mediotype_responsive>
+            <page>
+                <rewrite>
+                    <html_topmenu>Mediotype_Responsive_Block_Page_Html_Topmenu</html_topmenu>
+                </rewrite>
+            </page>
+        </blocks>
+        <helpers>
+            <mediotype_responsive>
+                <class>Mediotype_Responsive_Helper</class>
+            </mediotype_responsive>
+        </helpers>
+    </global>
+</config>

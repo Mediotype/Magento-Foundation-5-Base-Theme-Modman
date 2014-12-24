@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mediotype_Responsive>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Page/>
+
+            </depends>
+        </Mediotype_Responsive>
+    </modules>
+</config>
